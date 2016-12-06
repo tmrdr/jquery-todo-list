@@ -12,9 +12,9 @@ $("#clicker").click(function(){
 
 
 
-$(".do").click(function(){
+$("ul[id=list]").click(function(){
     console.log("i have been clicked~!");
-    $(this).css("color", "red"());
+    $(this).css("color", "red");
     // $(this).remove());
   });
 
